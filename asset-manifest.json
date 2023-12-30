@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/book-app-week-3/static/css/main.09701ca6.css",
-    "main.js": "/book-app-week-3/static/js/main.d589f484.js",
+    "main.css": "/book-app-week-3/static/css/main.947fe144.css",
+    "main.js": "/book-app-week-3/static/js/main.29ec2a59.js",
     "static/js/787.aec261b0.chunk.js": "/book-app-week-3/static/js/787.aec261b0.chunk.js",
     "static/media/profile.svg": "/book-app-week-3/static/media/profile.13478be6139d6df3dadc27b2cbede5c7.svg",
     "static/media/logo.svg": "/book-app-week-3/static/media/logo.b01933fec26b8fade883599030b893b9.svg",
@@ -11,12 +11,12 @@
     "static/media/book-heart.svg": "/book-app-week-3/static/media/book-heart.ceb36f2e96955368f0c6b0efd5956b3b.svg",
     "static/media/bell.svg": "/book-app-week-3/static/media/bell.7c50674099947dc6f01b96bef86e9b38.svg",
     "index.html": "/book-app-week-3/index.html",
-    "main.09701ca6.css.map": "/book-app-week-3/static/css/main.09701ca6.css.map",
-    "main.d589f484.js.map": "/book-app-week-3/static/js/main.d589f484.js.map",
+    "main.947fe144.css.map": "/book-app-week-3/static/css/main.947fe144.css.map",
+    "main.29ec2a59.js.map": "/book-app-week-3/static/js/main.29ec2a59.js.map",
     "787.aec261b0.chunk.js.map": "/book-app-week-3/static/js/787.aec261b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09701ca6.css",
-    "static/js/main.d589f484.js"
+    "static/css/main.947fe144.css",
+    "static/js/main.29ec2a59.js"
   ]
 }
