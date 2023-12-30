@@ -6,11 +6,18 @@ import Shimmer from './components/Shimmer';
 
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar/>
-      <BookContainer/>
-      <Shimmer/>
-    </div>
+      
+      <BookContainer className='book-container'/>
+      
+      
+    </>
+      
+      
+      
+      
+
   )
 }
 

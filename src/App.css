@@ -47,9 +47,15 @@ button{
 }
 
 
-.shimmer-wrapper {
+.shimmer-wrapper{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-evenly;
 }
 
@@ -81,4 +87,18 @@ button{
   100% {
     background-position: 0 468px ;
   }
+}
+
+.book-image-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-inline:2rem;
+
+  gap:2rem;
+}
+.book-image{
+  display:inline-block;
+  width: 200px;
+  height: 280px;
 }

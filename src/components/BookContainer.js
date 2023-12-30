@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { BOOKS_API } from '../utils/constant';
+import Shimmer from './Shimmer';
 
 const BookContainer = () => {
   const [bookList, setbookList] = useState([]);
@@ -16,7 +17,7 @@ useEffect(()=>{
   .then(data => {
     // Handle the data received from the API
     if(data){
-      setbookList(data.items);
+      setbookList(data?.items);
       console.log(bookList);
     }
     setbookList(data.items);
@@ -31,14 +32,21 @@ useEffect(()=>{
   
   
 
-
-  return (
-    <div>
-    <ul>{bookList.map((book)=>(<li key={book?.id}>{book?.volumeInfo?.title}
-     
-    </li>))}</ul>
-      
+ return (
+  <div>
+  {bookList.length === 0 ? (
+    <Shimmer />
+  ) : (
+    <div className='book-container'>
+   { bookList.map((book) => (
+      <div  className="book-image-container" key={book?.id}>
+        <img  className="book-image" src={book.volumeInfo.imageLinks?.thumbnail} alt={book.volumeInfo.title} />
+      </div>
+    ))
+   }
     </div>
+    )}
+</div>
   )
 }
 
