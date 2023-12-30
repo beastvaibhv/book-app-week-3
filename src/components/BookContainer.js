@@ -18,11 +18,8 @@ useEffect(()=>{
     // Handle the data received from the API
     if(data){
       setbookList(data?.items);
-      console.log(bookList);
     }
-    setbookList(data.items);
-    console.log(data);
-    console.log(bookList);
+    
   })
   .catch(error => {
     // Handle errors

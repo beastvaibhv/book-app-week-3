@@ -14,25 +14,28 @@ const Navbar = () => {
         <div className='main-navbar'>
       <div className="header-element">
         <div className="logo">
-            <div> <img src={logo} alt="logo" className='icons' /> </div>
-            <div> <img src={logoName} alt="logoName" className='icons'/></div>
+            <div> <img src={logo} alt="logo"  /> </div>
+            <div> <img src={logoName} alt="logoName" /></div>
 
         </div>
         <div className='search-container'>
             <div className="input-box">
                <img src={search} alt="search-icon" />
-                <input type="text" />
+                <input 
+                type="text"
+                placeholder="Search for the book you want and read it now... Sherlock Holmes, Harry Pot..."
+                 />
             </div>
             <div>
-                <button>Search</button>
+                <button className='search-btn'>Search</button>
             </div>
         </div>
         <div className="navbar-container"> 
         <div className='icons'>
-          <span><img src={bookHeart} alt="book-heart-icon" /></span>
-          <span><img src={bell} alt="bell-icon" /></span>
-          <span><img src={diamond} alt="diamond" /></span>
-          <span><img src={profile} alt="profile" /></span>
+          <div><img src={bookHeart} alt="book-heart-icon" /></div>
+          <div><img src={bell} alt="bell-icon" /></div>
+          <div><img src={diamond} alt="diamond" /></div>
+          <div><img src={profile} alt="profile" /></div>
 
         </div>
         </div>
